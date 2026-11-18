@@ -1,0 +1,99 @@
+AYUDA - CARRETERAS ZONA 1 CORIA (NORTE-OESTE)
+==============================================
+
+RESUMEN RAPIDO
+--------------
+En ordenador: doble clic en Mapa_Zona1_IGN.html (Chrome o Edge).
+En iPhone:    abre la URL HTTPS del visor en Safari > Activar GPS >
+              Permitir > Compartir > Anadir a la pantalla de inicio.
+En Android:   abre la URL HTTPS del visor > Activar GPS > Permitir >
+              Menu (tres puntos) > Anadir a pantalla de inicio / Instalar app.
+El boton "Ayuda" de la barra del mapa muestra este mismo resumen.
+
+SISTEMA DE COORDENADAS
+----------------------
+ETRS89 / UTM 29N (H29, EPSG:25829), elipsoide GRS80, meridiano central -3.
+Los SHP incluidos en SHP_H29 ya estan en ese sistema (PRJ corregido).
+El visor muestra WGS84 (lat/lon) y E/N UTM 29N en metros en el panel, en
+los puntos kilometricos y en las fichas de carretera y poblacion.
+El campo LONGITUD del DBF esta en metros; el visor lo convierte a km y lo
+muestra en negrita, seguidos de / y los metros en la misma linea (12 px).
+
+DATOS (18/11/2026)
+------------------
+69 carreteras con 16.448 vertices (SHP simplificado con tolerancia 0,5 m).
+474 puntos kilometricos (campo Number del SHP).
+80 nucleos del IGN con nombre, habitantes, capital y altitud.
+
+ARCHIVOS INCLUIDOS
+------------------
+Mapa_Zona1_IGN.html   VERSION PRINCIPAL: fondos IGN, GPS, medicion,
+                      etiquetas, color/grosor, Referencial/LRS, Wake Lock,
+                      coordenadas WGS84 y ETRS89/UTM 29N (H29).
+Mapa_Zona1.html       VERSION LIGERA: funciona sin internet. Trazas, PK,
+                      Referencial y coordenadas. Sin fondos ni GPS.
+SHP_H29\             SHP/DBF/PRJ/CPG de carreteras y PK en ETRS89 H29.
+Ayuda.txt            Este archivo.
+
+1) USO EN ORDENADOR (Windows)
+-----------------------------
+1. Abre la carpeta indicada arriba.
+2. Doble clic en Mapa_Zona1_IGN.html: se abre en Chrome o Edge.
+3. Con internet veras los fondos del IGN (topografico, mapa base u ortofoto).
+   Sin internet pulsa "Sin fondo": carreteras, PK y poblaciones siguen visibles.
+4. Escribe en la unica caja de busqueda una carretera, una poblacion o
+   una via con su PK (por ejemplo CC-143, CC-110 o CC-102 2+522). Si hay
+   varias coincidencias, elige en la lista.
+5. "Medir distancias": clic en el inicio y en cada punto; muestra tramos
+   y total acumulado.
+6. El cuadradito de color cambia el color y el desplegable de grosor
+   cambia la anchura de las carreteras; la seleccionada se resalta.
+7. Pulsa en cualquier punto del mapa: panel con WGS84 y ETRS89/UTM 29N
+   (H29), con boton Copiar. Dentro tiene dos modos: Pantalla y GPS.
+8. Referencial: recuadro azul con Via y PK real. Solo se actualiza al
+   tocar la traza (30 m); si tocas fuera conserva el ultimo PK. Con GPS
+   activo sigue tu posicion.
+9. Busqueda por Referencial integrada en la unica caja: escribe la via
+   y su PK juntos (Zona 1: CC-102 2+522 o CC-102 2522; Zona 4:
+   CC-420 10+150 o CC-420 10150). No hay boton ni panel aparte: el mapa
+   va a ese PK y resalta la via y el punto en rojo.
+10. Pantalla siempre activa ON/OFF evita que el movil apague la pantalla.
+
+2) EN iOS / IPHONE
+------------------
+1. Abre la URL HTTPS del visor en Safari (nunca http://). El GPS no
+   funciona abriendo el HTML desde Archivos.
+2. Pulsa "Activar GPS" y acepta "Permitir" cuando Safari lo pregunte.
+   Si no aparece el permiso: Ajustes > Privacidad y seguridad >
+   Servicios de ubicacion > activarlos y, dentro de Safari, marcar "Precisa".
+3. Para tenerlo como una app: boton "Compartir" -> "Anadir a la pantalla
+   de inicio". Asi se abre siempre en HTTPS.
+4. Pantalla siempre activa: Safari en iOS no permite Wake Lock. Si se
+   apaga la pantalla, Ajustes > Pantalla y brillo > Bloqueo automatico >
+   Nunca.
+5. Si ves una version antigua, cierra la pestaña y vuelve a abrir el enlace.
+
+3) EN ANDROID
+-------------
+1. Abre la misma URL HTTPS del visor en Chrome.
+2. Pulsa "Activar GPS" y acepta "Permitir".
+3. Para instalarlo: menu de Chrome (tres puntos) -> "Anadir a pantalla
+   de inicio" o "Instalar app".
+
+4) FUNCIONES
+------------
+- Unica caja de busqueda: carretera, poblacion o via + PK (CC-143, CC-110,
+  CC-102 2+522). Sin boton ni panel de Referencial aparte.
+- Fondos IGN: topografico, mapa base, ortofoto PNOA y sin fondo.
+- Medir distancias desde un punto elegido: tramos y total.
+- Etiquetas PK con toggle y etiquetas de carreteras por zoom con toggle.
+- Color y grosor de carreteras; ficha con km en negrita / metros.
+- Referencial/LRS (solo se mueve sobre la traza), coordenadas WGS84/UTM 29N
+  (H29) con modos Pantalla y GPS, y Pantalla siempre activa.
+- El marcador de ubicacion/GPS es una flecha roja con contorno verde que
+   gira con el rumbo, para no confundirla con los puntos de poblacion.
+
+5) EJEMPLOS DE BUSQUEDA (ZONA 1)
+--------------------------------
+CC-143  De EX-204 a Riomalo de Arriba por Las Mestas, Cabezo y Ladrillar
+CC-110  De Hoyos (EX-205) a EX-109 (a Perales del Puerto)

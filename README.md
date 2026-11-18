@@ -27,4 +27,14 @@ La **Búsqueda por Referencial** está integrada en la **única caja de búsqued
 2. Sube los 3 archivos de esta carpeta: `index.html`, `README.md` y `.nojekyll`.
 3. Escribe un mensaje de commit y pulsa **Commit changes**.
 4. Ve a **Settings → Pages**, Source: **Deploy from a branch**, rama `main`, carpeta `/(root)`, **Save**.
-5. Abre `https://inventario2020.github.io/zona1-mapa/`. En iPhone usa Safari y acepta el permiso de ubicación (Pages da HTTPS).
+5. Abre `https://inventario2020.github.io/zona1-mapa/`. En iOS / iPhone usa Safari y acepta el permiso de ubicación (Pages da HTTPS).
+
+## Usarlo en iOS / iPhone
+
+1. Abre **Safari** y pega la URL `https://inventario2020.github.io/zona1-mapa/` (nunca `http://`): el GPS solo funciona con HTTPS.
+2. Pulsa **Activar GPS** y acepta **Permitir**. Si no aparece: Ajustes → **Privacidad y seguridad → Servicios de ubicación** → activarlos y, en **Safari**, marcar **Precisa**.
+3. Para tenerlo como app: **Compartir → Añadir a la pantalla de inicio**.
+4. **Pantalla siempre activa:** Safari en iOS no permite Wake Lock. Si se apaga la pantalla, ve a Ajustes → **Pantalla y brillo → Bloqueo automático → Nunca**.
+5. Si ves una versión antigua del mapa, cierra la pestaña y vuelve a abrir el enlace.
+
+El mapa lleva un botón **Ayuda** en la barra superior con el resumen para ordenador, iOS / iPhone y Android. El ZIP incluye `Ayuda.txt` con las instrucciones completas.
