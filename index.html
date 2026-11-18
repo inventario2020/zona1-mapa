@@ -885,7 +885,7 @@ function coordHTML(lat,lng){
 D.roads.forEach((r,i)=>{
  const casing=L.polyline(r[3],{color:'#ffffff',weight:roadWeight+4,opacity:.95,lineCap:'round',interactive:false});
  const line=L.polyline(r[3],{color:roadColor,weight:roadWeight,opacity:1,lineCap:'round'});
- const roadHTML=()=>'<h3>'+esc(r[0])+'</h3><div class="desc">'+esc(r[1])+'</div><div class="roadlen"><b>'+fmt(r[2]/1000)+' km</b><br><span>'+fmt(r[2])+' m</span></div>';
+ const roadHTML=()=>'<h3>'+esc(r[0])+'</h3><div class="desc">'+esc(r[1])+'</div><div class="roadlen"><b>'+fmt(r[2]/1000)+' km</b> / <span>'+fmt(r[2])+' m</span></div>';
  line.bindPopup(roadHTML()+coordHTML(r[3][0][0],r[3][0][1]));
  line.on('click',e=>{select(i);line.setPopupContent(roadHTML()+coordHTML(e.latlng.lat,e.latlng.lng));if(refOn){lrsManualUntil=Date.now()+20000;updateLRS(e.latlng);}});
  roadGroup.addLayer(casing).addLayer(line); RL.push(line); CASING.push(casing);

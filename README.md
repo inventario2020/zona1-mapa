@@ -9,7 +9,7 @@ Visor listo para publicar:
 
 Los SHP de partida están reproyectados a **ETRS89 / UTM 29N (H29, EPSG:25829)**, elipsoide GRS80, meridiano central -3°. El visor dibuja en lat/lon (WGS84) para Leaflet, pero muestra en el panel, los PK y las fichas tanto WGS84 como E/N UTM 29N en metros.
 
-El campo `LONGITUD` del DBF viene en **metros**; el visor lo muestra en **km** en negrita y debajo en metros, igual que Zona 4.
+El campo `LONGITUD` del DBF viene en **metros**; el visor lo muestra en **km** en negrita, seguidos de `/` y los metros en la misma línea, igual que Zona 4.
 
 ## Datos (18/11/2026)
 
