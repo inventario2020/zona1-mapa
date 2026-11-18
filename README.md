@@ -13,6 +13,8 @@ El campo `LONGITUD` del DBF viene en **metros**; el visor lo muestra en **km** e
 
 El **Referencial/LRS** solo se actualiza al tocar la traza de la carretera (30 m): si haces clic fuera se conserva el último PK mientras buscas coordenadas. Con el GPS activo sigue tu posición.
 
+El botón rojo **Búsqueda por Referencial** permite escribir una vía y su PK (p. ej. `CC-102` y `2+522` o `2522`): el mapa se centra en ese punto y resalta la carretera y el PK en rojo.
+
 ## Datos (18/11/2026)
 
 - 69 carreteras, 16.448 vértices tras simplificar los SHP H29 con tolerancia 0,5 m.
