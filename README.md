@@ -13,7 +13,7 @@ El campo `LONGITUD` del DBF viene en **metros**; el visor lo muestra en **km** e
 
 El **Referencial/LRS** solo se actualiza al tocar la traza de la carretera (30 m): si haces clic fuera se conserva el último PK mientras buscas coordenadas. Con el GPS activo sigue tu posición.
 
-El botón rojo **Búsqueda por Referencial** permite escribir una vía y su PK (p. ej. `CC-102` y `2+522` o `2522`): el mapa se centra en ese punto y resalta la carretera y el PK en rojo.
+La **Búsqueda por Referencial** está integrada en la **única caja de búsqueda** (la misma de carreteras y poblaciones): escribe la vía y su PK juntos, p. ej. `CC-102 2+522` o `CC-102 2522` (también `CC-102 2.522`). No hay botón ni panel aparte: el mapa se centra en ese punto (zoom 16) y resalta la carretera y el PK en rojo.
 
 ## Datos (18/11/2026)
 
