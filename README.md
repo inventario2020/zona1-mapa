@@ -1,4 +1,4 @@
-# Carreteras Zona 1 Coria (Norte-Oeste) — GitHub Pages
+# Carreteras de Zona 1 Coria (Norte-Oeste) — GitHub Pages
 
 Visor listo para publicar:
 
