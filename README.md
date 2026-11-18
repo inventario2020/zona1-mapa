@@ -11,6 +11,8 @@ Los SHP de partida están reproyectados a **ETRS89 / UTM 29N (H29, EPSG:25829)**
 
 El campo `LONGITUD` del DBF viene en **metros**; el visor lo muestra en **km** en negrita, seguidos de `/` y los metros en la misma línea, igual que Zona 4.
 
+El **Referencial/LRS** solo se actualiza al tocar la traza de la carretera (30 m): si haces clic fuera se conserva el último PK mientras buscas coordenadas. Con el GPS activo sigue tu posición.
+
 ## Datos (18/11/2026)
 
 - 69 carreteras, 16.448 vértices tras simplificar los SHP H29 con tolerancia 0,5 m.
